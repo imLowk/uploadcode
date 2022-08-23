@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+  
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+    
+}
+
+header{
+    width: 980px;
+    height: 100px;
+    background: blue;
+}
+ .login{
+    padding-right: 30px;
+    line-height: 30px;
+    float: right;
+    
+}
+.container .login h4 {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(63, 37, 37);
+    text-align: center;
+    background-color: rgb(37, 37, 167);
+    margin-top: 5px;
+    color: aliceblue;
+    
+}
+
+
+
+header img{
+    padding-left: 30px;
+}
+
+nav{
+    height: 35px;
+    background: rgb(76, 76, 182);
+    border-top: 1px solid white;
+    margin-bottom: 2px;
+    
+}
+nav .menu ul{
+    list-style: none;
+}
+nav .menu ul li{
+    float: left;
+    line-height: 35px;
+    padding: 0 15px;
+    
+}
+nav .menu ul li a{
+    color: aliceblue;
+    font-size: 15px;
+    text-decoration: none;
+}
+nav .search{
+    line-height: 35px;
+    float: right;
+    padding-right: 10px;
+  
+}
+div #banner {
+    width: 980px;
+    height: 200px;
+}
+.tintuc {
+    background-color: aqua;
+    width: 970px;
+    height: 30px;
+}
+.tintuc,h3{
+    padding-left:10px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size:large;
+    line-height: 30px;
+}
+article .list .newlist{
+    width: 28%;
+    padding: 2%;
+    float: left;
+    border: 1px solid #ccc;
+    margin-right:1.65% ;
+    margin-top:10px ;
+    margin-bottom: 5px;
+}
+#none{
+    margin-right: 0;
+    
+}
+article .list .newlist a {
+    font-size: small;
+    color: black;
+    text-decoration: none;
+}
+.content p{
+    font-size: small;
+}
+
+div .footer{
+    background-color: rgb(85, 85, 218);
+    padding: 480px auto;
+    margin: 470px auto;
+    margin-bottom: 5px;
+    width: 980px;
+    height: 150px;
+    border: 2px groove  black;
+}
+div .footer p{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: larger;
+    padding-top: 50px;
+    color: aliceblue;
+}
